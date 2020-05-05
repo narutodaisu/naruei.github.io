@@ -98,12 +98,12 @@ const characters = {
 			"Happy": "hehehehe.png"
 		}
 	},
-	"karu": {
+	"k": {
 		"Name": "こはる",
 		"Color": "#00bfff",
 		"Directory": "karu",
 		"Images": {
-			"mad": "idle.png"
+			"Mad": "mad.png"
 		}
 	}
 
@@ -210,13 +210,13 @@ let script = {
 
 			"play music Theme",
 			"scene Classroom",
-			"show e Normal center with fadeIn",
+			//"show e Normal center with fadeIn",
 			"e Ok guys, that's it for today, you can go home.",
 
 			"scene MyRoom",
 
-			"show karu mad center with fadeIn",
-			"karu 「一緒に『しょくぶつの森』やらない？」",
+			"show k Mad center with fadeIn",
+			"k 「一緒に『しょくぶつの森』やらない？」",
 			"p 「『しょくぶつの森』って聞いたことないなぁ……それ芝刈りゲーム？」",
 
 			"show e Doubt center with fadeIn",
