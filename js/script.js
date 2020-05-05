@@ -91,7 +91,7 @@ const characters = {
 		"Color": "#00bfff",
 		"Directory": "evelyn",
 		"Images":{
-			"Normal": "normal.png",
+			"Normal": "idle.png",
 			"Mad": "hmph!.png",
 			"Doubt": "uhh.png",
 			"Disapointed":"ngggg....png",
@@ -103,7 +103,7 @@ const characters = {
 		"Color": "#00bfff",
 		"Directory": "karu",
 		"Images": {
-			"mad": "mad.jpg"
+			"mad": "idle.png"
 		}
 	}
 
@@ -214,7 +214,7 @@ let script = {
 			"e Ok guys, that's it for today, you can go home.",
 
 			"scene MyRoom",
-			
+
 			"show karu mad center with fadeIn",
 			"karu 「一緒に『しょくぶつの森』やらない？」",
 			"p 「『しょくぶつの森』って聞いたことないなぁ……それ芝刈りゲーム？」",
