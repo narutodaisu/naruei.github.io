@@ -76,19 +76,20 @@ const scenes = {
 	"Home": "home.png",
 	"Room": "room.jpg",
 	"Sea": "sea.jpg",
-	"Library": "library.png"
+	"Library": "library.png",
+	"MyRoom": "myroom.jpg"
 };
 
 // Define the Characters
 const characters = {
 	"p": {
-		"Name": "{{player.name}}",
+		"Name": "松岡幸人",
 		"Color": "#ff3951"
 	},
 	"e":{
 		"Name": "{{evelyn_name}}",
 		"Color": "#00bfff",
-		"Directory": "Evelyn",
+		"Directory": "evelyn",
 		"Images":{
 			"Normal": "normal.png",
 			"Mad": "hmph!.png",
@@ -96,7 +97,16 @@ const characters = {
 			"Disapointed":"ngggg....png",
 			"Happy": "hehehehe.png"
 		}
+	},
+	"karu": {
+		"Name": "こはる",
+		"Color": "#00bfff",
+		"Directory": "karu",
+		"Images": {
+			"mad": "mad.jpg"
+		}
 	}
+
 };
 
 let script = {
@@ -125,6 +135,7 @@ let script = {
 		"Introduction": [
 			"clear",
 			"scene black with fadeIn",
+			/*
 			{"Input": {
 				"Text": "What is your name?",
 				"Validation": function (input) {
@@ -137,6 +148,7 @@ let script = {
 				},
 				"Warning": "You must enter a name!"
 			}},
+			*/
 			"centered You know?...",
 			"centered At first, there was nothing, only void. A void so dark and silent...",
 			"particles universe",
@@ -201,7 +213,11 @@ let script = {
 			"show e Normal center with fadeIn",
 			"e Ok guys, that's it for today, you can go home.",
 
-			"p Wait... what?",
+			"scene MyRoom",
+			
+			"show karu mad center with fadeIn",
+			"karu 「一緒に『しょくぶつの森』やらない？」",
+			"p 「『しょくぶつの森』って聞いたことないなぁ……それ芝刈りゲーム？」",
 
 			"show e Doubt center with fadeIn",
 
