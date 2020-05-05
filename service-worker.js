@@ -67,16 +67,20 @@ var files = [
 	"img/scenes/library.png",
 	"img/scenes/room.jpg",
 	"img/scenes/sea.jpg",
+	"img/scenes/myroom.jpg",
 
 	// Character Images
-	"img/characters/Evelyn/ahahahah.png",
-	"img/characters/Evelyn/hehehehe.png",
-	"img/characters/Evelyn/hmph!.png",
-	"img/characters/Evelyn/ngggg....png",
-	"img/characters/Evelyn/normal.png",
-	"img/characters/Evelyn/tongue.png",
-	"img/characters/Evelyn/uhh.png",
-	"img/characters/Evelyn/wink.png",
+	"img/characters/evelyn/ahahahah.png",
+	"img/characters/evelyn/hehehehe.png",
+	"img/characters/evelyn/hmph!.png",
+	"img/characters/evelyn/ngggg....png",
+	"img/characters/evelyn/normal.png",
+	"img/characters/evelyn/tongue.png",
+	"img/characters/evelyn/uhh.png",
+	"img/characters/evelyn/wink.png",
+	"img/characters/evelyn/idle.png",
+
+	"img/characters/karu/mad.png",
 
 	// UI Images
 	"img/ui/main-screen.svg"
