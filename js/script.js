@@ -102,7 +102,7 @@ const characters = {
 		"Name": "こはる",
 		"Color": "#00bff0",
 		"Directory": "karu",
-		"Images": {
+		"Images":{
 			"Mad": "mad.png"
 		}
 	}
@@ -216,9 +216,9 @@ let script = {
 			"scene MyRoom",
 
 			"show k Mad center with fadeIn",
-			"k 「一緒に『しょくぶつの森』やらない？」",
-			
-			"p 「『しょくぶつの森』って聞いたことないなぁ……それ芝刈りゲーム？」",
+			"k 一緒に『しょくぶつの森』やらない？",
+
+			"p 『しょくぶつの森』って聞いたことないなぁ……それ芝刈りゲーム？",
 
 			"show e Doubt center with fadeIn",
 
