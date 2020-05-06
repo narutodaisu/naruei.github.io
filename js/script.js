@@ -208,11 +208,11 @@ let script = {
 			"stop particles",
 			{"Function": {
 				"Apply": function () {
-					particles.universe.particles.number.value = 120;
+					particles.universe.particles.number.value = 500;
 					return true;
 				},
 				"Reverse": function () {
-					particles.universe.particles.number.value = 60;
+					particles.universe.particles.number.value = 200;
 					return true;
 				},
 			}},
