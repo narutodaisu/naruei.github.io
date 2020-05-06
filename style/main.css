@@ -17,12 +17,11 @@
  * ===========================
 **/
 
-@import url(//fonts.googleapis.com/css?family=Lato);
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500&display=swap');
 
 body {
 	background: #f7f6f6;
-	font-family: 'M PLUS 1p', 'Lato', 'Open Sans', serif;
+	font-family: 'M PLUS 1p', 'Open Sans', serif;
 }
 
 h1,
