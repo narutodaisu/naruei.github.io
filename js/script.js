@@ -99,7 +99,7 @@ const characters = {
 		}
 	},
 	"karu": {
-		"Name": "杉本彩羽",
+		"Name": "【杉本彩羽】",
 		"Color": "#00bfff",
 		"Directory": "Karu",
 		"Images": {
@@ -108,7 +108,7 @@ const characters = {
 	},
 
 	"hoshi": {
-		"Name": "山形星子",
+		"Name": "【山側星子】",
 		"Color": "#E1ED42",
 		"Directory": "Hoshiko",
 		"Images": {
@@ -218,8 +218,14 @@ let script = {
 			}},
 			"particles universe",
 			"show karu Mad center with fadeIn",
-			
+
 			"karu 「雪だな……」",
+
+			"hide karu",
+
+			"show hoshi Smile center with fadeIn",
+
+			"hoshi 「そーだね。」"
 			"e Soon they weren't just there... they were interacting, joining forces for a higher goal...",
 			"stop particles",
 			{"Function": {
