@@ -225,7 +225,7 @@ let script = {
 
 			"show hoshi Smile center with fadeIn",
 
-			"hoshi 「そーだね。」"
+			"hoshi 「そーだね。」",
 			"e Soon they weren't just there... they were interacting, joining forces for a higher goal...",
 			"stop particles",
 			{"Function": {
