@@ -18,10 +18,11 @@
 **/
 
 @import url(//fonts.googleapis.com/css?family=Lato);
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
 
 body {
 	background: #f7f6f6;
-	font-family: 'Lato', 'Open Sans', sans-serif;
+	font-family: 'Sawarabi Mincho', 'Lato', 'Open Sans', serif;
 }
 
 h1,
