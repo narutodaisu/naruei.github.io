@@ -173,7 +173,7 @@ let script = {
 			"centered ねえ……",
 			"centered それ知ってる？",
 			"centered 最初の大地には、何もいなかった。",
-			"centered 過行く時間さえ存在しなかった。",
+			"centered 過ぎ行く時間さえ存在しなかった。",
 			"centered 真っ黒な世界に、一人ぼっちで生きているものがあった。",
 			"centered 清寧、そして無音。",
 

@@ -19,65 +19,65 @@
 const strings = {
 
 	"English": {
-		"AdvanceHelp": "To advance through the game, press the space key or click.",
-		"Audio": "Audio",
-		"AutoPlay": "Auto",
-		"AutoPlaySpeed": "Autoplay Speed",
+		"AdvanceHelp": "ゲームを進めるためには、スペースキーを押すかクリックします。",
+		"Audio": "オーディオ",
+		"AutoPlay": "",
+		"AutoPlaySpeed": "自動再生速度",
 
-		"Back": "Back",
-		"BackButton": "Back.",
+		"Back": "巻き戻し",
+		"BackButton": "巻き戻し",
 
-		"Cancel": "Cancel",
-		"Close": "Close",
-		"Confirm": "Do you want to quit?",
+		"Cancel": "キャンセル",
+		"Close": "閉めて",
+		"Confirm": "終了しますか？",
 
-		"FullScreen": "Full Screen",
+		"FullScreen": "全画面表示",
 
-		"Help": "Help",
-		"Hide": "Hide",
-		"HideButton": "Hide Text.",
+		"Help": "ヘルプ",
+		"Hide": "",
+		"HideButton": "テキストを隠します。",
 
-		"iOSAudioWarning": "Audio settings are not supported on iOS.",
+		"iOSAudioWarning": "iOSではオーディオ設定がサポートされていません。",
 
-		"Language": "Language",
-		"Load": "Load",
-		"LoadAutoSaveSlots": "Auto Saved Games",
-		"LoadButton": "Open the Load Screen.",
-		"Loading": "Loading",
-		"LoadingMessage": "Wait while the assets are loaded.",
-		"LoadSlots": "Saved Games",
-		"LocalStorageWarning": "Local Storage is not available in this browser.",
+		"Language": "言語",
+		"Load": "ロード",
+		"LoadAutoSaveSlots": "自動的に保存されたゲーム",
+		"LoadButton": "ロード画面を開きます。",
+		"Loading": "読み込み中",
+		"LoadingMessage": "ファイルがロードされるのを待ちます。",
+		"LoadSlots": "保存されたゲーム",
+		"LocalStorageWarning": "このブラウザではローカルストレージは使用できません。",
 
-		"Music": "Music Volume",
+		"Music": "音楽の音量",
 
-		"NoSavedGames": "No saved games.",
-		"NoAutoSavedGames": "No automatically saved games.",
+		"NoSavedGames": "保存されたゲームはありません。",
+		"NoAutoSavedGames": "自動的に保存されたゲームはありません。",
 
-		"Overwrite": "Overwrite",
+		"Overwrite": "上書き",
 
-		"QuickButtons": "Quick Menu Buttons",
-		"Quit": "Quit",
-		"QuitButton": "Quit Game.",
+		"QuickButtons": "クイックメニューボタン",
+		"Quit": "終了する",
+		"QuitButton": "ゲームを終了します。",
 
-		"Resolution": "Resolution",
+		"Resolution": "解像度",
 
-		"Save": "Save",
-		"SaveButon": "Open the Save Screen.",
-		"SaveInSlot": "Save in slot",
-		"Settings": "Settings",
-		"SettingsButton": "Open the Settings Screen.",
-		"Show": "Show",
-		"SlotDeletion": "Are you sure you want to delete this slot?",
-		"SlotOverwrite": "Are you sure you want to overwrite this slot?",
-		"Sound": "Sound Volume",
-		"Start": "Start",
-		"Stop": "Stop",
+		"Save": "セーブ",
+		"SaveButon": "保存画面を開きます。",
+		"SaveInSlot": "スロットにセーブする",
+		"Settings": "環境設定",
+		"SettingsButton": "設定画面を開きます。",
+		"Show": "",
+		"SlotDeletion": "",
+		"SlotOverwrite": "",
+		"Sound": "効果音の音量",
+		"Start": "スタート",
+		"Stop": "",
 
-		"TextSpeed": "Text Speed",
+		"TextSpeed": "テキストスピード",
 
-		"Voice": "Voice Volume",
+		"Voice": "ボイスの音量",
 
-		"Windowed": "Windowed"
+		"Windowed": "ウィンドウモード"
 	},
 
 	"Español": {
