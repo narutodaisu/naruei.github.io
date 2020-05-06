@@ -890,6 +890,7 @@ $_ready(function () {
 	});
 
 	// Language select listener
+	/*
 	$_("[data-action='set-language']").change(function () {
 		settings.Language = $_("[data-action='set-language']").value();
 		game = script[settings.Language];
@@ -902,6 +903,7 @@ $_ready(function () {
 
 		setSlots();
 	});
+	*/
 
 	// Fix for select labels
 	$_("[data-select]").click(function () {

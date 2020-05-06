@@ -217,7 +217,8 @@ let script = {
 				},
 			}},
 			"particles universe",
-
+			"show karu Mad center with fadeIn",
+			
 			"karu 「雪だな……」",
 			"e Soon they weren't just there... they were interacting, joining forces for a higher goal...",
 			"stop particles",
