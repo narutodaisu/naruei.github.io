@@ -105,6 +105,28 @@ const characters = {
 		"Images": {
 			"Mad": "mad.png"
 		}
+	},
+
+	"hoshi": {
+		"Name": "山形星子",
+		"Color": "#E1ED42",
+		"Directory": "Hoshiko",
+		"Images": {
+			"Emb1": "emb1.png",
+			"Smile": "smile.png",
+			"Surprise": "surprised.png"
+		}
+	},
+
+	"haru": {
+		"Name": "佐々木春香",
+		"Color": "#e1001a",
+		"Directory": "Haruka",
+		"Images": {
+			"Smile": "happy.png",
+			"Blush": "blush.png"
+		}
+
 	}
 };
 
@@ -150,9 +172,13 @@ let script = {
 			*/
 			"centered ねえ……",
 			"centered それ知ってる？",
-			"centered At first, there was nothing, only void. A void so dark and silent...",
+			"centered 最初の大地には、何もいなかった。",
+			"centered 過行く時間さえ存在しなかった。",
+			"centered 真っ黒な世界に、一人ぼっちで生きているものがあった。",
+			"centered 清寧、そして無音。",
+
 			"particles universe",
-			"centered Then, suddenly, they started to appear...",
+			"centered 最初の『時間』が生まれてきた。",
 			"stop particles",
 			{"Function": {
 				"Apply": function () {
@@ -214,6 +240,12 @@ let script = {
 			"e Ok guys, that's it for today, you can go home.",
 
 			"p Wait... what?",
+
+			"scene MyRoom",
+
+			"show haru smile center with fadeIn",
+
+			"haru 「こんにちは！」",
 
 			"show e Doubt left with fadeIn",
 
