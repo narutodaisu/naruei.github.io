@@ -39,7 +39,7 @@ let engine = {
 	"ParticlesHistory": [],
 
 	// Change to true for a MultiLanguage Game.
-	"MultiLanguage": false,
+	"MultiLanguage": true,
 
 	// Music for the Main Menu.
 	"MenuMusic": "",

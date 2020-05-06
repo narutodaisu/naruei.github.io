@@ -34,7 +34,7 @@ const strings = {
 		"FullScreen": "全画面表示",
 
 		"Help": "ヘルプ",
-		"Hide": "",
+		"Hide": "隠す",
 		"HideButton": "テキストを隠します。",
 
 		"iOSAudioWarning": "iOSではオーディオ設定がサポートされていません。",
@@ -44,7 +44,7 @@ const strings = {
 		"LoadAutoSaveSlots": "自動的に保存されたゲーム",
 		"LoadButton": "ロード画面を開きます。",
 		"Loading": "読み込み中",
-		"LoadingMessage": "ファイルがロードされるのを待ちます。",
+		"LoadingMessage": "データ処理中……しばらくお待ちください。",
 		"LoadSlots": "保存されたゲーム",
 		"LocalStorageWarning": "このブラウザではローカルストレージは使用できません。",
 
@@ -56,7 +56,7 @@ const strings = {
 		"Overwrite": "上書き",
 
 		"QuickButtons": "クイックメニューボタン",
-		"Quit": "終了する",
+		"Quit": "終了",
 		"QuitButton": "ゲームを終了します。",
 
 		"Resolution": "解像度",
