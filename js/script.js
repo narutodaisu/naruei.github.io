@@ -83,7 +83,7 @@ const scenes = {
 // Define the Characters
 const characters = {
 	"p": {
-		"Name": "{{player.name}}",
+		"Name": "松岡幸人",
 		"Color": "#ff3951"
 	},
 	"e":{
