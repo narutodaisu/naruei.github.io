@@ -76,7 +76,8 @@ const scenes = {
 	"Home": "home.png",
 	"Room": "room.jpg",
 	"Sea": "sea.jpg",
-	"Library": "library.png"
+	"Library": "library.png",
+	"MyRoom": "myroom.jpg"
 };
 
 // Define the Characters
@@ -125,6 +126,7 @@ let script = {
 		"Introduction": [
 			"clear",
 			"scene black with fadeIn",
+			/*
 			{"Input": {
 				"Text": "What is your name?",
 				"Validation": function (input) {
@@ -137,6 +139,7 @@ let script = {
 				},
 				"Warning": "You must enter a name!"
 			}},
+			*/
 			"centered You know?...",
 			"centered At first, there was nothing, only void. A void so dark and silent...",
 			"particles universe",
