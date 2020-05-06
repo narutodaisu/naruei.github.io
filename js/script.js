@@ -227,6 +227,9 @@ let script = {
 
 			"hoshi 「そーだね。」",
 			"e Soon they weren't just there... they were interacting, joining forces for a higher goal...",
+
+			"centered これがこの物語の始まり。",
+			"centered その誰もこんな話になるとは思えなかった。",
 			"stop particles",
 			{"Function": {
 				"Apply": function () {

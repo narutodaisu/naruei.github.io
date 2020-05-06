@@ -53,7 +53,7 @@ const strings = {
 		"NoSavedGames": "保存されたゲームはありません。",
 		"NoAutoSavedGames": "自動的に保存されたゲームはありません。",
 
-		"Overwrite": "上書き",
+		"Overwrite": "セーブデータ",
 
 		"QuickButtons": "クイックメニューボタン",
 		"Quit": "終了",
@@ -67,8 +67,8 @@ const strings = {
 		"Settings": "設定",
 		"SettingsButton": "設定の画面を開きます。",
 		"Show": "",
-		"SlotDeletion": "",
-		"SlotOverwrite": "",
+		"SlotDeletion": "データ削除",
+		"SlotOverwrite": "上書き",
 		"Sound": "効果音の音量",
 		"Start": "スタート",
 		"Stop": "",
