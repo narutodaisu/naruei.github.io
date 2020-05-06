@@ -98,8 +98,8 @@ const characters = {
 			"Happy": "hehehehe.png"
 		}
 	},
-	"k": {
-		"Name": "かるひ",
+	"karu": {
+		"Name": "杉本彩羽",
 		"Color": "#00bfff",
 		"Directory": "Karu",
 		"Images": {
@@ -191,7 +191,7 @@ let script = {
 				},
 			}},
 			"particles universe",
-			"e 「これは億千万年以上の古い話です！」",
+			"karu 「これは億千万年以上の古い話です！」",
 			"e Soon they weren't just there... they were interacting, joining forces for a higher goal...",
 			"stop particles",
 			{"Function": {
