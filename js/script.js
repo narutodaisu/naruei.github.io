@@ -99,7 +99,7 @@ const characters = {
 		}
 	},
 	"k": {
-		"Name": "",
+		"Name": "かるひ",
 		"Color": "#00bfff",
 		"Directory": "Karu",
 		"Images": {
@@ -224,7 +224,7 @@ let script = {
 
 			" Oh, right... no, wait, WHAT?!",
 
-			"show e Mad at center with fadeIn",
+			"show e Mad with fadeIn",
 
 			"e Agh, not this again. Listen, this world we are in? It's not even real! In fact, you are not even you!",
 
