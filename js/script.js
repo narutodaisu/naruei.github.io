@@ -97,6 +97,14 @@ const characters = {
 			"Disapointed":"ngggg....png",
 			"Happy": "hehehehe.png"
 		}
+	},
+	"k": {
+		"Name": "",
+		"Color": "#00bfff",
+		"Directory": "Karu",
+		"Images": {
+			"Mad": "mad.png"
+		}
 	}
 };
 
@@ -211,10 +219,10 @@ let script = {
 			"e Oh, is there a problem?",
 			"p What was that story about? Aren't you going to finish it?",
 
-			"show e Happy with fadeIn",
-			"e Ah! I see, got you intrigued haven't I? Well {{player.name}}, as a matter of fact not even I know what I was talking about, we are on a novel someone wrote remember?",
+			"show k Mad with fadeIn",
+			"k Ah! I see, got you intrigued haven't I? Well {{player.name}}, as a matter of fact not even I know what I was talking about, we are on a novel someone wrote remember?",
 
-			"p Oh, right... no, wait, WHAT?!",
+			" Oh, right... no, wait, WHAT?!",
 
 			"show e Mad at center with fadeIn",
 
