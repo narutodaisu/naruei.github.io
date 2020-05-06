@@ -208,16 +208,16 @@ let script = {
 			"stop particles",
 			{"Function": {
 				"Apply": function () {
-					particles.universe.particles.number.value = 50;
+					particles.universe.particles.number.value = 120;
 					return true;
 				},
 				"Reverse": function () {
-					particles.universe.particles.number.value = 20;
+					particles.universe.particles.number.value = 60;
 					return true;
 				},
 			}},
 			"particles universe",
-			"karu 「これは億千万年以上の古い話です！」",
+			"karu 「雪だな……」",
 			"e Soon they weren't just there... they were interacting, joining forces for a higher goal...",
 			"stop particles",
 			{"Function": {
