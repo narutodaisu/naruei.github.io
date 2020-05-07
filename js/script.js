@@ -153,12 +153,12 @@ let script = {
 			"wait 1000",
 			"scene MyRoom with fadeIn",
 			"4月3日、金曜日。",
-			"春休みが終わるまで三日くらい残っている。",
+			"春休みが終わるまではあと三日。",
 			"いつも通り僕は起床。",
 
 			"show sa Smile center with fadeIn",
 
-			"sa 「やはり反省の色は全く見えないですね。」",
+			"sa 「あれ？なんでまだ生きてるの？」",
 			"centered それ知ってる？",
 			"centered 最初の大地には、何もいなかった。",
 			"centered 過ぎ行く時間さえ存在しなかった。",
