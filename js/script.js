@@ -71,7 +71,6 @@ const images = {
 
 // Define the backgrounds for each scene.
 const scenes = {
-	"Main": "monogatari-promo.svg",
 	"Classroom": "classroom.jpg",
 	"Home": "home.png",
 	"Room": "room.jpg",
@@ -134,7 +133,7 @@ let script = {
 	// The game starts here.
 	"English":{
 		"Start":[
-			"scence white with fadeIn",
+			"scene white with fadeIn",
 			"play sound Start",
 			"wait 3000",
 			{"Conditional": {

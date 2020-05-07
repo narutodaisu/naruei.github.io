@@ -1,17 +1,5 @@
 "use strict";
 
-/* exported messages */
-/* exported notifications */
-/* exported particles */
-/* exported music */
-/* exported voice */
-/* exported sound */
-/* exported videos */
-/* exported images */
-/* exported scenes */
-/* exported characters */
-/* exported script */
-
 /* global storage */
 
 // Define the messages used in the game.
@@ -134,23 +122,7 @@ let script = {
 	// The game starts here.
 	"English":{
 		"Start":[
-			{"Conditional": {
-				"Condition": function () {
-					return Storage.get ("played") == "true";
-				},
-				"True": {"Choice":{
-					"Text": "It seems you have already played the demo, do you wish to skip the introduction?",
-					"Skip":{
-						"Text": "Skip",
-						"Do": "jump Topics"
-					},
-					"Continue":{
-						"Text": "Continue",
-						"Do": "jump Introduction"
-					}
-				}},
-				"False": "jump Introduction"
-			}}
+			
 		],
 
 		"Introduction": [
