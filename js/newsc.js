@@ -56,7 +56,7 @@ const voice = {
 
 // Define the sounds used in the game.
 const sound = {
-	"Start": "「始めます」.mp3"
+
 };
 
 // Define the videos used in the game.
@@ -134,8 +134,6 @@ let script = {
 	// The game starts here.
 	"English":{
 		"Start":[
-			"play sound Start",
-			"wait 3000",
 			{"Conditional": {
 				"Condition": function () {
 					return Storage.get ("played") == "true";

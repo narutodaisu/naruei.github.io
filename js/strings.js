@@ -28,7 +28,7 @@ const strings = {
 		"BackButton": "巻き戻し",
 
 		"Cancel": "キャンセル",
-		"Close": "閉めて",
+		"Close": "閉める",
 		"Confirm": "終了しますか？",
 
 		"FullScreen": "全画面表示",
@@ -62,7 +62,7 @@ const strings = {
 		"Resolution": "解像度",
 
 		"Save": "セーブ",
-		"SaveButon": "保存画面を開きます。",
+		"SaveButon": "セーブ画面を開きます。",
 		"SaveInSlot": "スロットにセーブする",
 		"Settings": "設定",
 		"SettingsButton": "設定の画面を開きます。",
