@@ -76,7 +76,7 @@ const scenes = {
 	"Room": "room.jpg",
 	"Sea": "sea.jpg",
 	"Library": "library.png",
-	"MyRoom": "myroom.jpg"
+	"MyRoom": "myroom.jpg",
 };
 
 // Define the Characters
@@ -133,46 +133,19 @@ let script = {
 	// The game starts here.
 	"English":{
 		"Start":[
-			"scene white with fadeIn",
+			"scene white with fadeOut",
 			"play sound Start",
-			"wait 3000",
-			{"Conditional": {
-				"Condition": function () {
-					return Storage.get ("played") == "true";
-				},
-				"True": {"Choice":{
-					"Text": "It seems you have already played the demo, do you wish to skip the introduction?",
-					"Skip":{
-						"Text": "Skip",
-						"Do": "jump Topics"
-					},
-					"Continue":{
-						"Text": "Continue",
-						"Do": "jump Introduction"
-					}
-				}},
-				"False": "jump Introduction"
-			}}
+			"wait 2000",
+			"jump P1"
 		],
 
-		"Introduction": [
-			"clear",
+		"P1": [
 			"scene black with fadeIn",
-			/*
-			{"Input": {
-				"Text": "What is your name?",
-				"Validation": function (input) {
-					return input.trim().length > 0;
-				},
-				"Save": function (input) {
-					Storage.set ("PlayerName", input);
-					storage.player.name = input;
-					return true;
-				},
-				"Warning": "You must enter a name!"
-			}},
-			*/
-			"centered ねえ……",
+			"wait 1000",
+			"scene MyRoom with fadeIn",
+			"4月3日、金曜日。",
+			"春休みが終わるまで三日くらい残っている。",
+			"いつも通り僕は起床。",
 			"centered それ知ってる？",
 			"centered 最初の大地には、何もいなかった。",
 			"centered 過ぎ行く時間さえ存在しなかった。",

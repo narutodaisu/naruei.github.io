@@ -1,5 +1,17 @@
 "use strict";
 
+/* exported messages */
+/* exported notifications */
+/* exported particles */
+/* exported music */
+/* exported voice */
+/* exported sound */
+/* exported videos */
+/* exported images */
+/* exported scenes */
+/* exported characters */
+/* exported script */
+
 /* global storage */
 
 // Define the messages used in the game.
@@ -44,7 +56,7 @@ const voice = {
 
 // Define the sounds used in the game.
 const sound = {
-
+	"Start": "「始めます」.mp3"
 };
 
 // Define the videos used in the game.
@@ -59,7 +71,6 @@ const images = {
 
 // Define the backgrounds for each scene.
 const scenes = {
-	"Main": "monogatari-promo.svg",
 	"Classroom": "classroom.jpg",
 	"Home": "home.png",
 	"Room": "room.jpg",
@@ -122,7 +133,26 @@ let script = {
 	// The game starts here.
 	"English":{
 		"Start":[
-			
+			"scene white with fadeOut",
+			"play sound Start",
+			"wait 3000",
+			{"Conditional": {
+				"Condition": function () {
+					return Storage.get ("played") == "true";
+				},
+				"True": {"Choice":{
+					"Text": "It seems you have already played the demo, do you wish to skip the introduction?",
+					"Skip":{
+						"Text": "Skip",
+						"Do": "jump Topics"
+					},
+					"Continue":{
+						"Text": "Continue",
+						"Do": "jump Introduction"
+					}
+				}},
+				"False": "jump Introduction"
+			}}
 		],
 
 		"Introduction": [
