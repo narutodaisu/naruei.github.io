@@ -134,6 +134,7 @@ let script = {
 	// The game starts here.
 	"English":{
 		"Start":[
+			"scence white with fadeIn",
 			"play sound Start",
 			"wait 3000",
 			{"Conditional": {
