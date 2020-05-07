@@ -126,6 +126,15 @@ const characters = {
 			"Blush": "blush.png"
 		}
 
+	},
+
+	"sa": {
+		"Name": "【さゆり】",
+		"Color": "#e1001a",
+		"Directory": "Miko",
+		"Images": {
+			"Smile": "smile.png"
+		}
 	}
 };
 
@@ -133,7 +142,7 @@ let script = {
 	// The game starts here.
 	"English":{
 		"Start":[
-			"scene white with fadeOut",
+			"wait 1000",
 			"play sound Start",
 			"wait 2000",
 			"jump P1"
@@ -146,6 +155,10 @@ let script = {
 			"4月3日、金曜日。",
 			"春休みが終わるまで三日くらい残っている。",
 			"いつも通り僕は起床。",
+
+			"show sa Smile center with fadeIn",
+
+			"sa 「やはり反省の色は全く見えないですね。」",
 			"centered それ知ってる？",
 			"centered 最初の大地には、何もいなかった。",
 			"centered 過ぎ行く時間さえ存在しなかった。",
